@@ -1,0 +1,11 @@
+<!-- <button (click)="obtenerProductos()" >VER PRODUCTOS</button> -->
+
+@for(producto of productos; track producto.nombre){
+    <img src="{{producto.image}}" alt="">
+    <div>
+        {{producto.title}}
+    </div>
+    <div>
+        {{producto.price}}
+    </div>
+}
