@@ -1,0 +1,6 @@
+<p>articulos works!</p>
+@for(articulo of articulos; track articulo.id){
+    <!-- <p class="nombre">{{articulo.title}}</p>
+    <p>{{articulo.body}}</p> -->
+    <app-articulo [articulo]="articulo" ></app-articulo>   
+}
